@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicación</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="false" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Celebración de la Semana Santa</h1>
+  </div> 
+<div data-role="main" class="ui-content"> 
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>En que consiste la Semana Santa</h1>
+    <div>
+      <p>La Semana Santa es la conmemoración anual cristiana de la Pasión, Muerte y Resurrección de Jesús de Nazaret. Es un período de intensa actividad litúrgica dentro de las diversas confesiones cristianas. Está precedida por la Cuaresma que se refiere al tiempo de preparación donde se recuerda los 40 días de Jesucristo en el desierto. La fecha de la celebración es variable (entre marzo y abril según el año) ya que depende del calendario lunar. Durante la Semana Santa tienen lugar numerosas muestras de religiosidad popular a lo largo de todo el mundo, destacando las procesiones y las representaciones de la Pasión. La Semana Santa, es el tiempo para dedicarse a la oración y reflexionar en Jesucristo.
+      </p>
+      <br>
+    </div>
+    <div>
+      <img src="imagenes/semana1.png" width="50%">
+    </div>
+  </div>
+   
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Días de celebración</h1>
+    <div>
+      <p><strong>Jueves Santo:</strong> se rememora la Institución de la Eucaristía en la celebración de los Santos Oficios. Una vez que éstos han terminado, se rememora la agonía y oración de Jesús en el huerto de los olivos (Getsemaní), la traición de Judas  y el prendimiento de Jesús.
+      </p>
+      <br>
+    </div>
+    <div>
+      <img src="imagenes/semana2.png" width="20%"> 
+    </div>
+          
+    <div>
+      <p><strong>Viernes Santo:</strong> se rememora Prisión de Jesús, Los interrogatorios de Caifàs y Pilato, La coronación de espinas, Vía Crucis, Crucifixión de Jesús y La Sepultura de Jesús.
+      </p>
+      <br>
+    </div>
+    <div>
+      <img src="imagenes/semana3.png" width="20%"> 
+    </div>
+          
+    <div>
+      <p><strong>Sabado de Gloria:</strong> es un día de luto. En la Iglesia Católica también se conmemora la Soledad de María después de llevaralo sepulcro a Cristo, quedando en compañía del Apóstol Juan. Una vez ha anochecido, tiene lugar la principal celebración cristiana del año: la Vigilia Pascual; una liturgia muy especial, que se hace con la máxima solemnidad.
+         Los sacerdotes están revestidos de ornamentos blancos, señal de alegría por la resurrección del Señor.
+      </p>
+      <br>
+    </div>
+    <div>
+      <img src="imagenes/semana4.png" width="20%">
+    </div>
+          
+    <div>
+      <p><strong>Domingo de Pascua:</strong> marca el final de la Semana Santa, en este día se conmemora la resurrección de Jesús. Se celebra conuna Misa solemne en la cual se enciende el cirio pascual, que simboliza a Cristo resucitado.
+      </p>
+      <br>
+    </div>
+    <div>
+      <img src="imagenes/semana5.png" width="20%">
+    </div>
+  </div>
+   
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Como celebran la Semana Santa otras religiones</h1>
+    <div>
+      <p><strong>Judíos:</strong> celebran el matza, una cena que consiste en hierbas con sabor amargo y pan sin levadura (ácimo) en forma de galleta. El sabor amargo recuerda la esclavitud que vivió el pueblo de Israel ante los egipcios; y el pan sin levadura, según las escrituras bíblicas, simboliza la humildad de esta comunidad.
+      </p>
+      <br>
+    </div>
+    <div>
+      <img src="imagenes/semana6.png" width="20%">
+    </div>
+        
+    <div>
+      <p><strong>Testigos de Jehová:</strong> celebran la Cena del Señor con pan sin levadura y vino en sus congregaciones. A esta fracción del pan solo pueden acercarse las personas ungidas –según sus escritos– aquellos que tengan la esperanza de ir al cielo.
+      </p>
+      <br>
+    </div>
+    <div>
+      <img src="imagenes/semana7.png" width="20%">
+    </div>
+  </div>
+  <br>
+  <div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Semana Santa en mi comunidad</h2>
+        <p>Muestra la celebración de la Semana Santa en San Juan Amecac</p>
+        </a>
+      </li>
+      <br>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Semana Santa en Tlaxcala</h2>
+        <p>Muestra la celebración de la Semana Santa en Tlaxcala</p>
+        </a>
+      </li>
+      <br>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Semana Santa en Iztapalapa</h2>
+        <p>Muestra la celebración de la Semana Santa en Iztapalapa</p>
+        </a>
+      </li>
+      <br>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Semana Santa en Oaxaca</h2>
+        <p>Muestra la celebración de la Semana Santa en Oaxaca</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <br>  
+  </div>
+  <div data-role="footer" align="center" data-theme="a">
+        <div>
+          <img src="imagenes/persona_azul.png" width="46" height="46">
+        </div>
+        <div>
+          <h4>Aplicacion Dos</h4>
+          <h4>Luis Mario García Rendón</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Celebración de la Semana Santa en mi comunidad</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+        <h2>Celebración de la Semana Santa en San Juan Amecac</h2>
+        <p>EL jueves se coloca un tipo tejado por el cual va a pasar la procesión el dia viernes</p>
+        <img src="imagenes/semana8.png" width="30%" height="30%">
+        <p>El viernes, los vecinos se empiezan a hacer las alfombras por toda la calle por la que va a pasar la procesión,
+           primero dibujando algo representativo a la fecha</p>
+        <img src="imagenes/semana9.png" width="30%" height="30%">
+        <p>Despues de que ya esté el dibujo, se rellena de diferentes materiales pero en su mayoria de acerrin pintado</p>
+        <img src="imagenes/semana10.png" width="30%" height="30%">
+        <p>Algunos hacen algunas alfombras de animales, esta vez hubo una con animales marinos</p>
+        <img src="imagenes/semana11.png" width="30%" height="30%">
+        <p>Debajo del tejado que se muestra en la primera imagen se coloca una tipo altar con una imagen de algún santo</p>
+        <img src="imagenes/semana12.png" width="30%" height="30%">
+      </div>
+      </div>
+      <div data-role="footer" data-theme="a">
+        <h4>Luis Mario García Rendón</h4>
+      </div>
+    </div>
+  </div>  
+  
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Semana Santa en Tlaxcala</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+        <h2>Celebración de la Samana Santa en el estado de Tlaxcala</h2>
+        <p>El Jueves Santo los católicos celebran la misa del santo crisma, en la que se consagra el santo crisma y se bendicen los óleos de los catecúmenos y de los enfermos, los cuales se usarán en la administración de los sacramentos del bautismo, confirmación, orden sacerdotal y unción de los enfermos. El sacerdote renueva sus promesas sacerdotales que hicieron el día de su ordenación. Se comprometen a vivir más íntimamente con el Señor y a cumplir con fidelidad su ministerio sacerdotal.</p>
+        <img src="imagenes/semana15.png" width="30%" height="30%">
+        <p>Por la mañana del viernes, llamado santo, se tiene la devoción popular del viacrucis y las siete palabras.</p> 
+        <img src="imagenes/semana14.png" width="30%" height="30%">
+        <p>Por la tarde se celebra la pasión del Señor, que tiene tres momentos: liturgia de la palabra, adoración de la cruz y comunión eucarística. En algunos lugares, se tiene la devoción de rezar el rosario del pésame y la procesión del silencio.
+        </p>
+        <img src="imagenes/semana13.png" width="30%" height="30%">
+      </div>
+      </div>
+      <div data-role="footer" data-theme="a">
+        <h4>Luis Mario García Rendón</h4>
+      </div>
+    </div>
+  </div>
+   
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Semana Santa en Iztapalapa</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+        <h2>Celebración de la Semana Santa en la delegación Iztapalapa</h2>
+        <p>Año con año niños, jóvenes, adultos y ancianos de los 8 barrios tradicionalistas: San Lucas, Santa Bárbara, San Ignacio, San pablo, San José, San Pedro, La Asunción y San Miguel salen a las calles motivados por la fe a compartir con el mundo la representación de Semana Santa en Iztapalapa transformando sus calles, jardines y templos en el escenario idóneo para representar el suceso que cambio la historia de la Humanidad conjugando así un abanico de motivaciones y sentimientos humanos llevando consigo el valor de una tradición.</p>       
+        <img src="imagenes/semana17.png" width="30%" height="50%">
+        <p> En los barrios se eligen a los mayordomos; éstos organizan las fiestas, entre ellas, la del Señor de Ia Cuevita; la de San Lucas -conocido popularmente como San Luquitas, patrono de Iztapalapa-, que se celebra el 18 de octubre, con feria, danzantes y a veces octava, y en diciembre la de la Virgen de Guadalupe. </p>
+        <img src="imagenes/semana16.png" width="30%" height="50%">
+        <p>En los festejos dedicados a los santos de cada una de las ocho capillas, se levantan arcos de madera adornados con flores y semillas en las entradas de los atrios y de los templos. Los episodios más importantes tienen lugar el Domingo de Ramos con la Procesión y la Bendición de las Palmas; el Jueves Santo en el Jardín Cuitláhuac, y el Viernes Santo con la secuencia de la sentencia, los azotes, la coronación de espinas y el Vía Crucis que culmnina en el Cerro de la Estrella con la crucifixión. Los papeles ya no se heredan familiarmente como se hacía en otras épocas. Soldados romanos y judíos, integrantes del Sanedrín, vírgenes del pueblo, mujeres de Herodes, romanas, se eligen de entre los habitantes de los diferentes barrios.</p>
+        <img src="imagenes/semana18.png" width="30%" height="50%">
+      </div>
+      </div>
+      <div data-role="footer" data-theme="a">
+        <h4>Luis Mario García Rendón</h4>
+      </div>
+    </div>
+  </div>
+
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Semana Santa en Oaxaca</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+        <h2>Celebración de la Semana Santa en el estado de Oaxaca</h2>
+        <p>El Viernes Santo La Procesión del Silencio va tomando año con año, un fuerte arraigo entre las celebraciones de la Semana Santa en Oaxaca. Hace 22 años, en la Parroquia de la Sangre de Cristo se reunieron por primera vez para organizar esta procesión el padre Pedro Osorio, la señora Ana Bravo Vasconcelos, el maestro José Humberto Palancares y el Sr. Carlos Ocampo Prieto. La Procesión del Silencio lleva un orden programado: primero la cruz y los ciriales que preceden a toda procesión.</p>
+        <img src="imagenes/semana21.png" width="30%" height="50%">
+        <p>Después los estandartes bordados en plata o en oro, portando Relicarios con antigüedad que los convierte en piezas de museo, siguiendo las damas de la Tercera Orden de Santo Domingo, acompañando al Señor de la Columna, hermosísima talla del siglo XVII que se venera precisamente en este Templo.</p>
+        <img src="imagenes/semana20.png" width="30%" height="50%">
+        <p>A continuación un hombre con los pies descalzos, encapuchado, cubierto tan solo con un taparrabo carga una cruz muy grande y pesada; siguiéndole va la Cofradía de las Siervitas, damas de la Virgen de los Dolores, pertenecientes al Templo del Patrocinio, todas en riguroso luto acompañando a la Santísima Virgen, cargada en andas por otros penitentes también encapuchados. Al final de la procesión, veinte enormes lanzas adornadas cada una de ellas con motivos de la pasión del Señor (la corona de las espinas, los tres clavos, la sábana santa, etc), éstas son portadas por la otra Cofradía, escoltando la hermosa escultura de la Preciosa Sangre de Cristo que se venera en el Templo del mismo nombre.</p>
+        <img src="imagenes/semana19.png" width="30%" height="50%">  
+      </div>
+      </div>
+      <div data-role="footer" data-theme="a">
+        <h4>Luis Mario García Rendón</h4>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
